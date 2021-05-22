@@ -1,21 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import Routes from './src/routes';
+
+import {
+  useFonts,
+  RobotoCondensed_300Light,
+  RobotoCondensed_400Regular,
+  RobotoCondensed_700Bold
+} from '@expo-google-fonts/roboto-condensed';
+
+import { Dark, Light } from './src/styles/themes';
+import { Load } from './src/components/Load';
+import { ThemeProvider } from './src/contexts/ThemeContext';
+import { usePersistedState } from './src/utils/usePeristedState';
 
 export default function App() {
+  const [fontsLoaded] = useFonts({
+    RobotoCondensed_300Light,
+    RobotoCondensed_400Regular,
+    RobotoCondensed_700Bold
+  });
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ThemeProvider defaultTheme={Dark}>
+      { fontsLoaded ? <Routes /> : <Load /> }
+    </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
