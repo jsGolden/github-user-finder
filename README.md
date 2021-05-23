@@ -39,13 +39,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Lottie](https://airbnb.design/lottie/)
 
 ## 🔖 Layout
-<video width="100%" height="auto" autoplay muted>
-  <source 
-    src="https://user-images.githubusercontent.com/72801733/119252573-73a16900-bb83-11eb-9217-cce92ccf7af8.mp4" type="video/mp4"
-  >
-</video>
-
-
+https://user-images.githubusercontent.com/72801733/119252806-88323100-bb84-11eb-8e60-661069752f37.mp4
 
 ## 📥 Clonando
 Requisitos:
