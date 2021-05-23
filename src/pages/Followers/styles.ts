@@ -14,7 +14,7 @@ export const Title = styled.Text`
     font-size: 34px;
     color: ${props => props.theme.colors.text};
     font-family: ${props => props.theme.font.bold};
-    margin-top: 30px;
+    margin-top: 5px;
     padding-left: 30px;
 `;
 

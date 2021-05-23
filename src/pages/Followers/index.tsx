@@ -23,6 +23,7 @@ import {
   ProfileImageContainer,
   Title,
 } from "./styles";
+import { getUser } from "../../services/userApi";
 
 interface Params {
   user: UserInterface;
@@ -81,8 +82,8 @@ export function Followers() {
   async function handleCardPress(follower: FollowerInterface) {
     try {
       setIsLoading(true);
-      const { data } = await axios.get<UserInterface>(follower.url);
-      navigation.push("User", { user: data });
+      const user = await getUser(follower.login);
+      navigation.push("User", { user });
       setIsLoading(false);
     } catch {
       Alert.alert(
@@ -123,7 +124,7 @@ export function Followers() {
           renderItem={renderCard}
           showsVerticalScrollIndicator={false}
           numColumns={2}
-          onEndReachedThreshold={0.3}
+          onEndReachedThreshold={0.5}
           onEndReached={({ distanceFromEnd }) => handleFetchMore(distanceFromEnd)}
           ListFooterComponent={
             loadingMore && !loadedAll ? (

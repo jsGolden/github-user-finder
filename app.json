@@ -28,6 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Um buscador de usuários Github!"
+    "description": "Um buscador de usuários Github!",
+    "githubUrl": "https://github.com/jsGolden/github-user-finder"
   }
 }

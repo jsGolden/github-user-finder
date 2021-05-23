@@ -58,8 +58,6 @@ export function Home() {
 
   return (
     <Container statusBarHeight={Constants.statusBarHeight}>
-      
-
       <CirclesPattern
         fill={theme.colors.terciary}
         style={{ position: "absolute", top: 50, opacity: 0.5 }}
