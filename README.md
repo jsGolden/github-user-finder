@@ -5,6 +5,7 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-clonando">Clonar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-demonstração">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
@@ -36,6 +37,14 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Async Storage](https://react-native-async-storage.github.io/async-storage/)
 - [Styled Components](https://styled-components.com/)
 - [Lottie](https://airbnb.design/lottie/)
+
+## 🔖 Layout
+<video width="100%" height="auto" autoplay muted>
+  <source 
+    src="https://user-images.githubusercontent.com/72801733/119252573-73a16900-bb83-11eb-9217-cce92ccf7af8.mp4" type="video/mp4"
+  >
+</video>
+
 
 
 ## 📥 Clonando
