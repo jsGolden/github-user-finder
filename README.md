@@ -39,6 +39,8 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [Lottie](https://airbnb.design/lottie/)
 
 ## 🔖 Layout
+<p>Este projeto não teve um layout pré-definido, então fique com o vídeo abaixo mostrando as telas:</p>
+
 https://user-images.githubusercontent.com/72801733/119252806-88323100-bb84-11eb-8e60-661069752f37.mp4
 
 ## 📥 Clonando
